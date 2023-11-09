@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS\ESTILO.CSS">
+    <title> Cadastro IFSUL CPW </title>
+</head>
+
+<body>
+    <section>
+        <div class="container">
+            <div class="container-cadastro">
+                <h1>CADASTRO:</h1>
+
+
+                <div class="label-float">
+                    <label for="nome"></label>
+                    <input type="text" id="nomeid" placeholder="Nome completo" required="required" name="nome" />
+
+                <div class="label-float">
+                    <label for="fone"></label>
+                    <input type="tel" id="foneid" placeholder="Telefone (xx)xxxx-xxxx" name="fone" />
+
+                <div class="label-float">
+                    <label for="email"></label>
+                    <input type="email" id="emailid" placeholder="fulano@mail.com" name="email" />
+
+                <div class="label-float">
+                    <label for="date"></label>
+                    <input type="date" id="dateid" name="date" />
+
+                <div class="label-float">
+                    <label id="labelSenha"></label>
+                    <input type="password" id="senha" placeholder="ESCOLHA UMA SENHA" required>
+                    
+                <div class="label-float">
+                    <label id="textarea"></label>
+                    <input type="textarea" maxlength="100" id="textarea" placeholder="TEXTO ATÉ 100 CARACTECRES" required>
+
+
+                    
+                </div>
+                <input type="submit" class="cadastrar" onclick="cadastrar();" value="cadastrar" />
+
+                <div class="login-button">
+                    <button><a href="inicio.html">Voltar</a></button>
+
+                </div>
+                
+            </div>
+        </div>
+             
+    </section>
+</body>
+
+<script src="JVS\SCRIPT.JS"></script>
+
+</html>
